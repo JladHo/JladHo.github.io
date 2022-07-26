@@ -1,0 +1,384 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+/*шапка*/
+nav{
+	width: 100%;
+	height: 60px;
+	background: #2A3E51;
+}
+.logo{
+	font-size: 23px;
+	line-height: 60px;
+	padding-left: 388px;
+	float: left;
+}
+.menu{
+	padding-left: 949px;
+}
+.menu li{
+;
+	float: left;
+	line-height: 60px;
+	margin-right: 40px;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+header{
+	width: 100%;
+	color: #fff;
+}
+
+/*главная*/
+.main{
+	width: 100%;
+	height: 100%;
+	background: url(../img/парень.png) 95% 100%/auto 90% no-repeat, url(../img/фон.jpg) center/cover no-repeat;
+}
+.Title{
+	float: left;
+	margin: 370px 0 0 401px;
+	text-align: center;
+}
+.Title h1{
+	color: #2C384A;
+	font-size: 70px;
+	font-weight: bold;
+}
+.Title h4{
+	color: #79818D;
+	font-size: 21px;
+	padding-top: 30px;
+}
+.Title input{
+	color: #6D7682;
+	font-size: 20px;
+	padding: 8px 10px;
+	border: 2px solid #6D7682;;
+	border-radius: 5px;
+	margin: 40px 14px;
+}
+
+/*обо мне*/
+.myself{
+	width: 100%;
+	color: fff;
+	text-align: center;
+}
+.myself h2{
+	color: #263244;
+	font-size: 34px;
+	width: 160px;
+	padding: 50px 0 15px 0;
+	margin: 0 0 50px 0;
+	margin-left: calc(50% - 80px);
+	border-bottom: 4px solid #EA7800;
+}
+.myself p{
+	color: #575F6E;
+	width: 760px;
+	margin: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 17px;
+	text-align: left;
+}
+.myself input{
+	font-size: 17px;
+	color: #6F707E;
+	background: url(../img/download.png) no-repeat 5%;
+	padding-left: 25px;
+	border: 2px solid #6F707E;
+	padding: 10px 7px 10px 25px;
+	border-radius: 5px;
+	margin-bottom: 100px;
+}
+
+/*что я умею*/
+.skills{
+	background: url(../img/skills.jpg) no-repeat center;
+	width: 100%;
+	height: 55%;
+	text-align: center;
+}
+.items{
+	float: left;
+	width: 216px;
+	margin: 30px 35px;
+}
+.skills h2{
+	color: #263244;
+	font-size: 34px;
+	width: 230px;
+	margin: auto auto;
+	padding-top: 101px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #EA7800;
+}
+.items h4{
+	margin: 30px 0 15px 0;
+	color: #CF7600;
+	font-weight: bold;
+}
+.items span{
+	color: #3F495A;
+	font-size: 17px;
+}
+.skp{
+	width: 1150px;
+	margin-left: calc(50% - 575px);
+	margin-top: 80px;
+}
+
+/*кейсы*/
+.cases{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	text-align: center;
+}
+.cases h2{
+	color: #263244;
+	font-size: 34px;
+	width: 150px;
+	margin: auto auto;
+	padding-top: 101px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #EA7800;
+}
+.cases p{
+	margin: 70px 0 40px;
+	font-size: 17px;
+	color: #3F495A;
+}
+.data{
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 350px;
+	width: 201px;
+	float: left;
+}
+.data h4{
+	font-size: 25px;
+	color: #384354;
+	font-weight: bold;
+}
+.data p{
+	font-size: 17px;
+	color: #3F495A;
+	margin: 10px 0;
+}
+.data input{
+	color: #fff;
+	padding: 10px 30px;
+	background: #63B5AE;
+	border-radius: 5px;
+}
+.datap{
+	width: 859px;
+	margin-left: 650px;
+	text-align: left;
+	margin-top: 20px;
+}
+.datap h4{
+	font-size: 25px;
+	color: #384354;
+	font-weight: bold;
+}
+.datap p{
+	margin-top: -0px;
+	color: #3F495A;
+	font-size: 21px;
+}
+
+/*расчёт стоимости*/
+.money{
+	text-align: center;
+	width: 956px;
+	height: 785px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.money h2{
+	color: #1C2534;
+	font-weight: bold;
+	font-size: 34px;
+	width: 310px;
+	margin: auto auto;
+	padding-top: 101px;
+	margin-bottom: 65px;
+}
+.options h4{
+	padding-left: 35px;
+	color: #1C2534;
+	font-size: 29px;
+	text-align: left;
+	font-weight: bold;
+}
+.select{
+	margin-left: 35px;
+	display: block;
+	width: 891px;
+	height: 50px;
+	background: #EEEEEE;
+	margin-top: 22px;
+	margin-bottom: 36px;
+	color: #737373;
+	font-size: 17px;
+	padding-left: 20px;
+}
+.itog{
+	display: block;
+	width: 891px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 2px solid #EEEEEE;
+	padding-top: 30px;
+	color:#1C2534;
+	text-align: left;
+}
+.itog p{
+	font-size: 21px;
+	margin-bottom: ;
+}
+.ch{
+	display: block;
+	text-align: right;
+}
+
+/*статистика*/
+.stats{
+	width: 100%;
+	height: 53%;
+	background: url(../img/stats.jpg) no-repeat center;
+}
+.stats h2{
+	color: #263244;
+	font-size: 34px;
+	width: 410px;
+	margin: auto auto;
+	padding-top: 101px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #EA7800;
+}
+.stat{
+	width: 170px;
+	float: left;
+	text-align: center;
+	margin-top: 68px;
+}
+.stat h4{
+	margin: 32px 0px;
+	font-size: 38px;
+	font-weight: bold;
+	color: #323E4F;
+}
+.st{
+	width: 720px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*отзывы*/
+.reviews{
+	text-align: center;
+}
+.reviews h2{
+	color: #263244;
+	font-size: 34px;
+	width: 150px;
+	margin: auto auto;
+	padding-top: 101px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #EA7800;
+}
+.reviews img{
+	margin: 55px 0 48px;
+}
+.reviews p{
+	padding-bottom: 27px;
+	width: 700px;
+	color: #243042;
+	font-size: 17px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.TXT{
+	margin-bottom: 100px;
+}
+
+/*контакты*/
+.contacts{
+	color: #fff;
+	background: url(../img/fon3.jpg) 90% center/cover no-repeat ;
+	text-align: center;
+}
+.contacts h2{
+	font-size: 34px;
+	width: 300px;
+	margin: auto auto;
+	padding-top: 101px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #EA7800;
+}
+.contacts>p{
+	font-size: 17px;
+	margin: 43px 0 36px;
+}
+.pt{
+	width: 750px;
+	height: 70px;
+	margin: 0 auto;
+}
+.cont{
+	float: left;
+	width: 180px;
+	font-size: 17px;
+	margin: 0 35px;
+}
+.cont p{
+	margin-top: 6px;
+}
+.contacts h5{
+	margin: 37px 0 30px;
+	color: #fff;
+	font-size: 22px;
+}
+.forms{
+	width: 800px;
+	height: 148px;
+	margin: 0 auto;
+}
+.forms input{
+	background: rgba(238, 238, 238, 0.85);
+	color: #5D5D5E;
+	font-size: 17px;
+	font-weight: bold;
+	width: 352px;
+	height: 34px;
+	margin: 10px;
+	padding: 7px 0 7px 12px;
+}
+.forms textarea{
+	width: 728px;
+	height: 94px;
+	background: rgba(238, 238, 238, 0.85);
+	color: #5D5D5E;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 3px 0 0 12px;
+}
+form>input{
+	background: rgba(0, 0, 0, 0);
+	border: 2px solid #F9FAFF;
+	border-radius: 5px;
+	margin-top: 28px;
+	padding: 10px 20px;
+	margin-bottom: 130px;
+	color: #fff;
+	font-size: 21px;
+	font-weight: bold;
+}

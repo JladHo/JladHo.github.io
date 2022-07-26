@@ -4,19 +4,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Lesson 1</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
 		<nav>
 			<div class="logo">Андрей Браун</div>
-			<div class="menu"><ul>
-				<li>ОБО МНЕ</li>
-				<li>УСЛУГИ</li>
-				<li>КЕЙСЫ</li>
-				<li>ПРАЙС</li>
-				<li>ОТЗЫВЫ</li>
-				<li>КОНТАКТЫ</li>
-			</ul></div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">ОБО МНЕ</a></li>
+					<li><a href="#">УСЛУГИ</a></li>
+					<li><a href="#">КЕЙСЫ</a></li>
+					<li><a href="#">ПРАЙС</a></li>
+					<li><a href="#">ОТЗЫВЫ</a></li>
+					<li><a href="#">КОНТАКТЫ</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 
@@ -24,14 +28,16 @@
 		<div class="Title">
 			<h1>Привет<br>Я Андрей Браун</h1>
 			<h4>Фулл стек - разработчик и Android - разработчик</h4>
-			<input type="button" name="myself" value="Обо мне">
-			<input type="button" name="myworks" value="Мои работы">
+			<div class="buttons">
+				<input type="button" name="myself" value="Обо мне">
+				<input type="button" name="myworks" value="Мои работы">
+			</div>
 		</div>	
 	</div>
 
 	<div class="myself">
 		<h2>ОБО МНЕ</h2>
-		<img src="img/" alt="Картинка автора">
+		<img src="img/паренмин.png" alt="Картинка автора">
 		<p>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -46,33 +52,34 @@
 
 	<div class="skills">
 		<h2>ЧТО Я УМЕЮ</h2>
+		<div class="skp">
+			<div class="items">
+				<img src="img/laptop.png" alt="Веб-Дизайн">
+				<h4>Веб-дизайн</h4>
+				<span>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </span>
+			</div>
 
-		<div class="items">
-			<img src="img/" alt="Веб-Дизайн">
-			<h4>Веб-дизайн</h4>
-			<span>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. </span>
-		</div>
+			<div class="items">
+				<img src="img/develop.png" alt="Разработка">
+				<h4>Разработка</h4>
+				<span>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</span>
+			</div>
 
-		<div class="items">
-			<img src="img/" alt="Разработка">
-			<h4>Разработка</h4>
-			<span>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.</span>
-		</div>
+			<div class="items">
+				<img src="img/rocket.png" alt="Сео-оптимизация">
+				<h4>Сео-оптимизация</h4>
+				<span>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </span>
+			</div>
 
-		<div class="items">
-			<img src="img/" alt="Сео-оптимизация">
-			<h4>Сео-оптимизация</h4>
-			<span>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. </span>
-		</div>
-
-		<div class="items">
-			<img src="img/" alt="Маркетинг">
-			<h4>Маркетин</h4>
-			<span>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. </span>
+			<div class="items">
+				<img src="img/megaphone.png" alt="Маркетинг">
+				<h4>Маркетин</h4>
+				<span>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </span>
+			</div>
 		</div>
 	</div>
 
@@ -82,98 +89,107 @@
 		<p>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. </p>
 
-		<img src="img/" alt="Кейс"><br>
+		<img src="img/кейсы.png" alt="Кейс"><br>
 
-		<span class="nazv">CLIENT</span><br>
-		<span>Какая-то компания</span><br>
+		<div class="data">
+			<h4>CLIENT:</h4>
+			<p>Какая-то компания</p>
 
-		<span class="nazv">WEBSITE</span><br>
-		<span>https://www.somedomain.com</span><br>
+			<h4>WEBSITE:</h4>
+			<p>https://www.somedomain.com</p>
 
-		<input type="button" name="visit" value="VISIT LIVE SITE"><br>
-
-		<span class="nazv">Название проекта</span><br>
-		<span>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+			<input type="button" name="visit" value="VISIT LIVE SITE">
+		</div>
+		<div class="datap">
+			<h4>Название проекта</h4>
+			<p>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
 
 	</div>
-
 	<div class="money" >
+		<h2>Рaсчёт стоимости</h2>
 		<div class="options">
 			<h4>ТИП САЙТА</h4>
-			<select name="type">
-				<option value="type1">Type1</option>
-				<option value="type2">Type2</option>
-				<option value="type3">Type3</option>	
+			<select class="select" name="type">
+				<option value="type1" selected disabled>Выберите пункт...</option>
+				<option value="type2">Type1</option>
+				<option value="type3">Type2</option>
+				<option value="type4">Type3</option>	
 			</select>
 		</div>
 
 		<div class="options">
 			<h4>ДИЗАЙН</h4>
-			<select name="dis">
-				<option value="dis1">dis1</option>
-				<option value="dis2">dis2</option>
-				<option value="dis3">dis3</option>
-						
+			<select class="select" name="type">
+				<option value="dis1" selected disabled>Выберите пункт...</option>
+				<option value="dis2">dis1</option>
+				<option value="dis3">dis2</option>
+				<option value="dis4">dis3</option>
 			</select>
 		</div>
 			
 		<div class="options">
 			<h4>АДАПТИВНОСТЬ</h4>
-			<select name="adapt">
-				<option value="adapt1">adapt1</option>
+			<select class="select" name="type">
+				<option value="adapt1" selected disabled>Выберите пункт...</option>
 				<option value="adapt2">adapt2</option>
 				<option value="adapt3">adapt3</option>
+				<option value="adapt4">adapt4</option>
 						
 			</select>
 		</div>
-		<span>Сроки</span><span>0</span><br>
-		<span>Стоимость</span><span>0</span>
+		<div class="itog">
+			<p>Сроки <span class="ch">0</span></p>
+			<p>Стоимость <span class="ch">0</span></p>
+		</div>
 	</div>
 
 	<div class="stats">
 		<h2>НЕМНОГО СТАТИСТИКИ</h2>
-		<div class="stat">
-			<img src="img/" alt="Клиенты"><br>
-			<span>120</span><br>
-			<span>Счастливых клиентов</span><br>
-		</div>
+		<div class="st">
+			<div class="stat">
+				<img src="img/smile.png" alt="Клиенты"><br>
+				<h4>120</h4>
+				<p>Счастливых клиентов</p>
+			</div>
 
-		<div>
-			<img src="img/" alt="Часы работы"><br>
-			<span>4,600</span><br>
-			<span>Часов работы</span><br>
-		</div>
+			<div class="stat">
+				<img src="img/programming.png" alt="Часы работы"><br>
+				<h4>4,600</h4>
+				<p>Часов работы</p>
+			</div>
 
-		<div class="stat">
-			<img src="img/" alt="Проекты"><br>
-			<span>340</span><br>
-			<span>проектов успешно завершено</span><br>
-		</div>
+			<div class="stat">
+				<img src="img/tick.png" alt="Проекты"><br>
+				<h4>340</h4>
+				<p>проектов успешно завершено</p>
+			</div>
 
-		<div class="stat">
-			<img src="img/" alt="Награда"><br>
-			<span>23</span><br>
-			<span>наград получено</span><br>
+			<div class="stat">
+				<img src="img/kubok.png" alt="Награда"><br>
+				<h4>23</h4>
+				<p>наград получено</p>
+			</div>
 		</div>
 	</div>
 
 	<div class="reviews">
 		<h2>ОТЗЫВЫ</h2>
 
-		<img src="img/" alt="Картинка">
+		<img src="img/otz.png" alt="Картинка">
 
-		<p>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<p><strong>Михаил</strong>, Ген директор ПАО "ГАЗПРОМ"</p>
+		<div class="TXT">
+			<p>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<p><strong>Михаил</strong>, Ген директор ПАО "ГАЗПРОМ"</p>
+		</div>
 	</div>
 
 	<footer>
@@ -182,33 +198,37 @@
 			<p>.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. </p>
 
-			<img src="img/" alt="место">
-			<span>Санкт-Петербург</span><br>
-			<span>Невский Проспект 11</span><br>
+			<div class="pt">
+				<div class="cont">
+					<img src="img/locate.png" alt="место">
+					<p>Санкт-Петербург</p>
+					<p>Невский Проспект 11</p>
+				</div>
 
-			<img src="img/" alt="почта">
-			<span>info@companyname.com</span><br>
+				<div class="cont">
+					<img src="img/mail.png" alt="почта">
+					<p>info@companyname.com</p>
+				</div>
 
-			<img src="img/" alt="телефон">
-			<span>+7 999 999-99-99</span><br>
+				<div class="cont">
+					<img src="img/phone.png" alt="телефон">
+					<p>+7 999 999-99-99</p>
+				</div>
+			</div>
 
 			<h5>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h5>
 			<form accept="">
-				<input type="name" name="name" placeholder="Имя">
-				<input type="Email" name="Email" placeholder="Email"><br>
-				<input type="text" name="text" placeholder="Сообщение"><br>
+				<div class="forms">
+					<input type="name" name="name" placeholder="Имя">
+					<input type="Email" name="Email" placeholder="Email"><br>
+					<textarea placeholder="Сообщение"></textarea><br>
+				</div>
 				<input type="submit" name="sunmit" value="Отправить">
 			</form>
-			<img src="img/" alt="facebook">
-			<img src="img/" alt="twitter">
-			<img src="img/" alt="browser">
-			<img src="img/" alt="github">
-			<img src="img/" alt="instagram">
-			<img src="img/" alt="in">
 		</div>
 
 		<div class="map">
-			<p>I'M HERE</p>			
+			<img src="img/map.jpg">
 		</div>
 	</footer>
 
